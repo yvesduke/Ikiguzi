@@ -48,3 +48,12 @@ body {
 		margin: 0px;
 	}
 }
+
+.jumbotron {
+	background-image: url('banner1.jpg');
+	background-size: 1200px 400px;
+	background-repeat: no-repeat;
+	h1, h2 {
+		font-family: guardian-egyptt, georgia, serif;
+	}
+}
