@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   get 'pages/contact'
   get 'seller' => "listings#seller"
   get 'sales' => "orders#sales"
-  get 'purchase' => "orders#purchases"
+  get 'purchases' => "orders#purchases"
 
   root 'listings#index'
 
