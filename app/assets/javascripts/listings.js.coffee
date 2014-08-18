@@ -1,4 +1,4 @@
-jQuery ->
+/*jQuery ->
   Stripe.setPublishableKey($('meta[name="stripe-key"]').attr('content'))
   listing.setupForm()
 
@@ -16,4 +16,4 @@ jQuery ->
        	 $('#new_listing')[0].submit()
        else
        	$('#stripe_error').text(response.error.message).show()
-        $('input[type=submit]').attr('disabled', false)
+        $('input[type=submit]').attr('disabled', false)*/
